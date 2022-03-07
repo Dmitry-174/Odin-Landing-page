@@ -5,23 +5,23 @@
 }
 
 .hero-container {
-    width: 1200px;
+    width: 1024px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 8px 16px;
+    gap: 100px;
 }
 
 header {
-    height: 48px;
     background-color: #1F2937;   
+    padding: 32px 16px 0;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 nav {
@@ -33,4 +33,47 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 96px 16px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.left-hero {
+    flex: 1 1 0;
+}
+
+.right-hero {
+    flex: 1 1 0;
+    height: 100%;
+}
+
+.image-placeholder {
+    color: #E5E7EB;
+    background-color: #afafaf;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
